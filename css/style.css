@@ -1,0 +1,37 @@
+.navbar-brand img{
+    width:150px;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.nav-link{
+font-weight: 600;
+font-size: 20px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 10px;
+    background: rgb(230,150,11);
+    border: 0;
+    border-radius: 10px;
+}
+.carousel-indicators .active{
+    width: 50px
+}
+.card{
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+span{
+    width: 150px;
+    height: 5px;
+    background-color: orange;
+    margin: auto;
+    display: block;
+}
+.category{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
