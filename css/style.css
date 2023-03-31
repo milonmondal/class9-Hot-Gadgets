@@ -70,7 +70,11 @@ input{
     display:flex;
     flex-basis: auto;
 }
-#footer .footer-cards .footer-card{padding: 0px 0 60px 0;line-height: 1.4;flex-basis: 30%;}
+#footer .footer-cards .footer-card{
+    padding: 0px 0 0px 0;
+    line-height: 1.4;
+    flex-basis: 30%;
+}
 #footer .footer-cards .footer-card h3{
 font-size: 26px;
 margin: 20px 0;
@@ -86,7 +90,7 @@ color: #eee;
     background: #040f1de8;
     color: #eee;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 .footer-end p a{
     color:#eee;
