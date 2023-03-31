@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(122, 120, 120);
+    transition: all is ease;
+}
 .navbar-brand img{
     width:150px;
 }
@@ -8,8 +17,6 @@
 font-weight: 600;
 font-size: 20px;
 }
-
-
 .carousel-indicators [data-bs-target] {
     width: 40px;
     height: 10px;
@@ -61,9 +68,9 @@ input{
 }
 
 /* footer section starts */
-#footer{
+#footer {
     background-color: #242222da;
-    color:#eee;
+    color: #eee;
     margin-top: 20px;
 }
 #footer .footer-cards{
@@ -86,11 +93,12 @@ margin: 2px;
 color: #eee;
 }
 
-.footer-end{
+.footer-end {
     background: #040f1de8;
-    color: #eee;
+    color:#eee;
     text-align: center;
     padding: 20px;
+    
 }
 .footer-end p a{
     color:#eee;
