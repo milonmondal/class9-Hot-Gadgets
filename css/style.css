@@ -35,3 +35,61 @@ span{
 .category{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+#signup{
+    width: 80%;
+    margin: auto;
+}
+#signup .signup-form {
+    text-align: center;
+}
+.info{}
+.fname{
+    padding: 5px 50px;
+}
+input{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 5px 100px 5px 100px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #cbcaca6b;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.559);
+    
+}
+
+/* footer section starts */
+#footer{
+    background-color: #242222da;
+    color:#eee;
+    margin-top: 20px;
+}
+#footer .footer-cards{
+    display:flex;
+    flex-basis: auto;
+}
+#footer .footer-cards .footer-card{padding: 0px 0 60px 0;line-height: 1.4;flex-basis: 30%;}
+#footer .footer-cards .footer-card h3{
+font-size: 26px;
+margin: 20px 0;
+}    
+#footer .footer-cards .footer-card i{ 
+border: 1px solid #eee; 
+padding: 10px 15px; 
+margin: 2px;
+color: #eee;
+}
+
+.footer-end{
+    background: #040f1de8;
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+.footer-end p a{
+    color:#eee;
+    font-weight: bold;
+}
+
